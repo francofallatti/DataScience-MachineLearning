@@ -58,4 +58,8 @@ y = (-1)^(1:20)*5*(1:20)
 plot(x,y, main = "Ejemplo de grafico", pch = 8, cex = 1, type = "b", lty = 4, lwd = 4, xaxp = c(0,40,2), yaxp = c(-100,100,8))
 ```
 
+```{r}
+plot (n, fib, pch = 21, col = "red", bg = "yellow", cex = 1.2, type= "o", lty = "dotted", lwd = 2, xlim= c(1,10), ylim = c(1,100), xaxp = c(1,10,3), yaxp = c(0,100,10))
+```
+
 
